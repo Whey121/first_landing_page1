@@ -73,6 +73,7 @@ img
 	font-size: 18px
 	line-height: 24px
 	color: white
+	text-decoration: none
 	&:hover, &:focus, &:active
 		opacity: .75
 
@@ -130,11 +131,11 @@ img
 	font-weight: 500
 	font-size: 24px
 	color: white
-	background-color: #1B7DFF
+	background-color: #006DFE
 	border: 0
 
 	&:hover, &:focus, &:active
-		background: #0c699a
+		background: #1B7DFF
 
 /* Intro style end
 
@@ -196,6 +197,7 @@ img
 	padding-right: 59px
 	font-size: 16px
 	line-height: 24px
+	text-decoration: none
 	color: #006DFE
 	background: url('../img/svg/arrow-right-ico.svg') no-repeat 96% center
 	transition: 0.2s all
@@ -221,7 +223,7 @@ img
 		background: url('../img/svg/arrow-right-ico.svg') no-repeat right center
 		padding-right: 59px
 		text-decoration: none
-		&::hover, &::focus
+		&:hover , &:focus
 			text-decoration: none
 			opacity: .65
 
@@ -236,6 +238,10 @@ img
 	&__card
 		position: relative
 		overflow: hidden
+		&:hover
+			.places__card-pic
+				transform: scale(1.05)
+
 		&-link
 			position: absolute
 			top: 0
@@ -254,8 +260,6 @@ img
 			left: 0
 			top: 0
 			z-index: 2
-		&::hover
-			transform: scale(1.05)
 
 	&__card-title
 		font-size: 50px
@@ -280,7 +284,5 @@ img
 		&_sm
 			heigt: 283px
 			object-fit: cover
-		&::hover
-			transform: scale(1.05)
 
 	/* Places style end
