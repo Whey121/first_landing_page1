@@ -286,3 +286,37 @@ img
 			object-fit: cover
 
 	/* Places style end
+
+	/* Tours style start
+.tours
+	margin-bottom: 139px
+	&__tour
+		display: grid
+		grid-template-columns: repeat(2, 1fr)
+		grid-gap: 0 108px
+		align-items: center
+		margin-bottom: 77px
+
+.tour
+	&__info
+		padding-left: 47px
+	&__title
+		font-weight: 500
+		font-size: 30px
+		line-height: 40px
+		margin-bottom: 85px
+	&__desc
+		font-size: 16px
+		line-height: 24px
+		margin-bottom: 58px
+	&__more
+		padding-right: 59px
+		font-size: 16px
+		text-decoration: none
+		color: #006DFE
+		background: url('../img/svg/arrow-right-ico.svg') no-repeat 96% center
+		transition: 0.2s all
+
+		&:hover, &:focus, &:active
+			background: url('../img/svg/arrow-right-ico.svg') no-repeat right center
+	/* Tours style end
