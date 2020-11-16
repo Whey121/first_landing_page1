@@ -22,10 +22,12 @@ img
 .wrapper
 	max-width: 1060px
 	margin: 0 auto
+	padding: 0 15px
 
 .wrapper-full
 	max-width: 1262px
 	margin: 0 auto
+	padding: 0 15px
 
 .section-title
 	font-weight: 500
@@ -54,34 +56,34 @@ img
 	padding-bottom: 20px
 	z-index: 999
 
-.header__active
-	background: #0E1D28
+	&__active
+		background: #0E1D28
 
-.header__wrapper
-	display: flex
-	flex-wrap: wrap
-	align-items: flex-end
-	justify-content: space-between
-	padding-top: 56px
+	&__wrapper
+		display: flex
+		flex-wrap: wrap
+		align-items: flex-end
+		justify-content: space-between
+		padding-top: 56px
 
-.header__list
-	display: flex
-	flex-wrap: wrap
-	list-style-type: none
+	&__list
+		display: flex
+		flex-wrap: wrap
+		list-style-type: none
 
-.header__item
-	margin-right: 82px
+	&__item
+		margin-right: 82px
 
 	&:last-child
 		margin-right: 0
 
-.header__link
-	font-size: 18px
-	line-height: 24px
-	color: white
-	text-decoration: none
-	&:hover, &:focus, &:active
-		opacity: .75
+	&__link
+		font-size: 18px
+		line-height: 24px
+		color: white
+		text-decoration: none
+		&:hover, &:focus, &:active
+			opacity: .75
 
 /* Header style end
 
@@ -94,20 +96,20 @@ img
 	padding-top: 263px
 	padding-bottom: 223px
 
-.intro__title
-	font-weight: 500
-	font-size: 50px
-	line-height: 60px
-	color: white
-	max-width: 619px
-	margin-bottom: 22px
+	&__title
+		font-weight: 500
+		font-size: 50px
+		line-height: 60px
+		color: white
+		max-width: 619px
+		margin-bottom: 22px
 
-.intro__subtitle
-	font-size: 16px
-	line-height: 24px
-	color: white
-	max-width: 546px
-	margin-bottom: 59px
+	&__subtitle
+		font-size: 16px
+		line-height: 24px
+		color: white
+		max-width: 546px
+		margin-bottom: 59px
 
 .search-form__info
 	display: flex
@@ -150,66 +152,66 @@ img
 .benefits
 	margin-bottom: 131px
 
-.benefits__wrap
-	max-width: 1262px
-	background-color: white
-	margin: 0 auto
-	box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993)
-	position: relative
+	&__wrap
+		max-width: 1262px
+		background-color: white
+		margin: 0 auto
+		box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993)
+		position: relative
 
-.benefits__title
-	width: 100%
-	font-weight: 500
-	font-size: 35px
-	line-height: 42px
-	padding: 93px 100px 88px 100px
-	position: absolute
-	top: 0
-	left: 0
-	transform: translateY(-100%)
-	background-color: white
+	&__title
+		width: 100%
+		font-weight: 500
+		font-size: 35px
+		line-height: 42px
+		padding: 93px 100px 88px 100px
+		position: absolute
+		top: 0
+		left: 0
+		transform: translateY(-100%)
+		background-color: white
 
-.benefits__cards
-	display: grid
-	grid-template-columns: repeat(3, 1fr)
-	grid-column-gap: 55px
-	padding: 0 100px
+	&__cards
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		grid-column-gap: 55px
+		padding: 0 100px
 
-.benefits__card
-	grid-column: span 1
-	margin-bottom: 131px
+	&__card
+		grid-column: span 1
+		margin-bottom: 131px
 
-.benefits__card-pic
-	max-width: 66px
-	margin-bottom: 37px
+	&__card-pic
+		max-width: 66px
+		margin-bottom: 37px
 
-.benefits__card-thumb
-	display: block
+	&__card-thumb
+		display: block
 
-.benefits__card-title
-	font-weight: 500
-	font-size: 18px
-	line-height: 24px
-	margin-bottom: 26px
+	&__card-title
+		font-weight: 500
+		font-size: 18px
+		line-height: 24px
+		margin-bottom: 26px
 
-.benefits__card-des
-	max-width: 317px
-	font-size: 16px
-	line-height: 24px
-	margin-bottom: 39px
+	&__card-des
+		max-width: 317px
+		font-size: 16px
+		line-height: 24px
+		margin-bottom: 39px
 
-.banefits__card-more
-	display: inline-block
-	padding-right: 59px
-	font-size: 16px
-	line-height: 24px
-	text-decoration: none
-	color: #006DFE
-	background: url('../img/svg/arrow-right-ico.svg') no-repeat 96% center
-	transition: 0.2s all
+	&__card-more
+		display: inline-block
+		padding-right: 59px
+		font-size: 16px
+		line-height: 24px
+		text-decoration: none
+		color: #006DFE
+		background: url('../img/svg/arrow-right-ico.svg') no-repeat 96% center
+		transition: 0.2s all
 
-	&:hover, &:focus, &:active
-		background: url('../img/svg/arrow-right-ico.svg') no-repeat right center
+		&:hover, &:focus, &:active
+			background: url('../img/svg/arrow-right-ico.svg') no-repeat right center
 
 	/* Benefits style end
 
