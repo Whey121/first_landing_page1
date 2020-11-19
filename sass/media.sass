@@ -1,11 +1,13 @@
 @media  (max-width: 960px)
+    .intro
+        padding-bottom: 230px
     .search-form__field
         margin-bottom: 25px
 
     .benefits
         margin-bottom: 60px
         &__card
-            margin-bottom: 60px
+            margin-bottom: 15px
         &__cards
             padding: 0 15px
             grid-column-gap: 35px
@@ -15,6 +17,7 @@
             box-shadow: none
 
     .places
+        margin-bottom: 80px
         &__card_size_lg
             grid-column: span 6
         &__card_size_sm
@@ -38,14 +41,26 @@
         &__card
             grid-column: span 3
             &-pic
+                width: 100%
                 margin-bottom: 40px
             &-desc
                 margin-bottom: 40px
             &-more
                 width: 135px
                 font-size: 20px
+            &-stats
+                max-width: 386px
+
+    .footer
+        padding: 76px 0
+        &__logo
+            margin-bottom: 24px
+        &__nav
+            width: 100%
 
 @media  (max-width: 767px)
+    .intro
+        padding-bottom: 200px
 
     .header
         &__burger
@@ -99,42 +114,101 @@
         margin-right: 100%
 
 @media  (max-width: 576px)
+    .section-title
+        margin-bottom: 20px
+        &::after
+            width: 150px
     .intro
         padding-top: 150px
+
+        padding-bottom: 170px
 
     .benefits
         &__card
             margin-bottom: 0
             grid-column: span 3
+            grid-row-gap: 30px
             &-title
                 margin-bottom: 10px
             &-des
                 margin-bottom: 15px
+            &-pic
+                margin-bottom: 20px
 
     .search-form__field
         max-width: 300px
+        padding-bottom: 16px
+        background: transparent url('../img/svg/circle-ico.svg') no-repeat left 2px
+
+        &::placeholder
+            font-size: 14px
+    .tours
+        margin-bottom: 76px
+        &__tour
+            margin-bottom: 50px
+    .tour
+        &__pic
+            grid-column: span 2
+            margin-bottom: 12px
+            &-mob
+                grid-row-start: -1
+        &__info
+            grid-column: span 2
+
+    .top
+        margin-bottom: 76px
+        &__card
+            grid-column: span 6
+            &-desc
+                margin-bottom: 20px
+    .places
+        &__card
+            &-title
+                font-size: 40px
+
+    .places__card-pic_lg , .places__card-pic_sm
+        height: 230px
+
+    .footer
+        padding: 56px 0
+        &__logo
+            width: 100%
+        &__nav
+            width: 100%
+        &__menu
+            width: 50%
+            margin-bottom: 24px
 
 @media  (max-width: 400px)
+
     .header
         &__wrapper
             padding-top: 30px
     .intro
-        padding-top: 100px
+        padding-top: 80px
+        padding-bottom: 180px
 
         &__title
             font-size: 32px
             line-height: 45px
+            margin-bottom: 15pxpx
 
         &__subtitle
             font-size: 14px
+            margin-bottom: 25px
 
     .search-form__field
         max-width: 300px
         margin-right: 0
 
+    .search-form__submit
+        width: 100%
+
     .benefits
         &__title
             font-size: 30px
+        &__cards
+            grid-row-gap: 25px
 
     .section-title
         font-size: 25px
